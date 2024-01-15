@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "naresh-aws-test"
+    bucket = "rajesh-hyd-test"
     key = "terraform.tfstate"
     region = "us-east-1"
-    dynamodb_table = "DynamoDbLock"
+    #dynamodb_table = "DynamoDbLock"
   }
 }
